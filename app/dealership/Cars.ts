@@ -1,3 +1,11 @@
+export interface Car {
+  id: number;
+  name: string;
+  price: number;
+  image: string;
+  description: string;
+}
+
 const cars: Cars = [
   {
     id: 1,
@@ -12,16 +20,15 @@ const cars: Cars = [
     price: 45000,
     image: "/cars/bmw-m3-series.jpg",
     description: "The BMW M3 Series is a high-performance compact sedan that combines sporty performance with luxury comfort. It features a responsive driving dynamics and a well-appointed interior with high-quality materials and advanced technology.",
+  },
+  {
+    id: 3,
+    name: "Porsche 718 Cayman",
+    price: 127800,
+    image: "/cars/porsche-718-cayman.jpg",
+    description: "The Porsche 718 Cayman is a mid-engine sports car that offers exceptional handling and performance. With its sleek design and powerful engine options, the 718 Cayman delivers an exhilarating driving experience. Inside, you'll find a luxurious interior with high-quality materials and advanced features, making it a perfect choice for those seeking a thrilling and stylish sports car.",
   }
-]
-
-export interface Car {
-  id: number;
-  name: string;
-  price: number;
-  image: string;
-  description: string;
-}
+];
 
 export type Cars = Car[];
 
