@@ -14,7 +14,7 @@ export function Header() {
             <li>
               <a
                 href="#"
-                className="text-white hover:text-race-red transition-colors duration-300 font-montserrat font-medium tracking-wide"
+                className="text-white hover:text-red-700 transition-colors duration-300 font-montserrat font-medium tracking-wide"
               >
                 Home
               </a>
@@ -22,7 +22,7 @@ export function Header() {
             <li>
               <a
                 href="#"
-                className="text-white hover:text-race-red transition-colors duration-300 font-montserrat font-medium tracking-wide"
+                className="text-white hover:text-red-700 transition-colors duration-300 font-montserrat font-medium tracking-wide"
               >
                 Cars
               </a>
@@ -30,7 +30,7 @@ export function Header() {
             <li>
               <a
                 href="#"
-                className="text-white hover:text-race-red transition-colors duration-300 font-montserrat font-medium tracking-wide"
+                className="text-white hover:text-red-700 transition-colors duration-300 font-montserrat font-medium tracking-wide"
               >
                 Models
               </a>
@@ -38,7 +38,7 @@ export function Header() {
             <li>
               <a
                 href="#"
-                className="text-white hover:text-race-red transition-colors duration-300 font-montserrat font-medium tracking-wide"
+                className="text-white hover:text-red-700 transition-colors duration-300 font-montserrat font-medium tracking-wide"
               >
                 Contact
               </a>

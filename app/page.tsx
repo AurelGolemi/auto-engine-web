@@ -2,6 +2,7 @@ import { Header } from "./Navigation/Header";
 import { Footer } from "./Navigation/Footer";
 import Cars from "./dealership/Cars";
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -92,9 +93,9 @@ export default function Home() {
                         €{car.price.toLocaleString()}
                       </span>
                     </div>
-                    <button className="px-4 py-2 bg-carbon-light text-white text-sm font-medium rounded border border-carbon-light hover:bg-race-red hover:border-race-red transition-all duration-300">
+                    <Link href={`/Cars/${car.id}`} className="px-4 py-2 bg-carbon-light text-white text-sm font-medium rounded border border-carbon-light hover:bg-red-700 hover:border-red-700 transition-all duration-300 cursor-pointer">
                       View Details
-                    </button>
+                    </Link>
                   </div>
                 </div>
               </div>
